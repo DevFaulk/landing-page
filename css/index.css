@@ -104,13 +104,33 @@ button {
   font-size: 36px;
   font-weight: 2rem;
   color: #1f2937;
+  text-align: center;
+}
+
+.info-imgs {
+  display: flex;
+  flex-direction: row;
+  padding-inline: 200px;
+}
+
+.info-imgs > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .info-img {
-  height: 100px;
-  width: 100px;
+  display: flex;
+  height: 150px;
+  width: 150px;
   border-radius: 10px;
   border: solid 3px #3882f6;
+}
+
+.info-subtext {
+  margin: 6px;
+  font-size: 1.1rem;
 }
 
 /* Quote Block */

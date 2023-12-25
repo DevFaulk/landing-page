@@ -11,10 +11,6 @@ button {
   color: #f9faf8;
 }
 
-.call-block {
-  background-color: #3882f6;
-}
-
 /* Header Block */
 
 .header-logo {
@@ -61,7 +57,7 @@ button {
 }
 
 .quote-text {
-  font-size: 36px;
+  font-size: 28px;
   font-weight: lighter;
   font-style: italic;
 }
@@ -73,4 +69,18 @@ button {
 /* Call Block */
 .call-button {
   border: 2px solid white;
+}
+
+.card-header {
+  font-weight: bold;
+}
+
+.card-header,
+.card-paragraph {
+  color: white;
+}
+
+.call-card {
+  border-radius: 6px;
+  background-color: #3882f6;
 }

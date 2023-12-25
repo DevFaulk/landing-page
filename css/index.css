@@ -1,3 +1,21 @@
+html {
+    background-color: white;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-evenly ;
+}
+
 /* Color Declaration Block */
 
 .dark {
@@ -12,6 +30,16 @@ button {
 }
 
 /* Header Block */
+.header-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-link {
+    padding: 1rem;
+    text-decoration: none;
+    border: none;
+}
 
 .header-logo {
   font-size: 24px;

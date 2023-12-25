@@ -1,0 +1,36 @@
+.dark {
+  background-color: #1f2937;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header-link {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.quote-block {
+  background-color: #e5e7eb;
+}
+
+.info-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  border: solid 3px #3882f6;
+}
+
+.hero-header {
+  font-size: 48px;
+  font-weight: 2rem;
+  color: #f9faf8;
+}
+
+.info-header {
+  font-size: 36px;
+  font-weight: 2rem;
+  color: #1f2937;
+}

@@ -164,23 +164,38 @@ button {
   padding: 4rem;
 }
 
-.call-button {
-  border: 2px solid white;
-}
-
-.card-header {
-  font-weight: bold;
-}
-
-.card-header,
-.card-paragraph {
-  color: white;
-}
-
 .call-card {
   display: flex;
   border-radius: 6px;
   background-color: #3882f6;
   width: 80%;
   padding: 2rem;
+  padding-block: 2.5rem;
+  padding-inline: 5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.call-button {
+  border: 2px solid white;
+  width: 115px;
+}
+
+.card-header {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card-header,
+.card-paragraph {
+  color: white;
+  margin: 0;
+}
+
+.card-text-block {
+  padding-left: 2rem;
+}
+
+.card-right {
+  padding-right: 2rem;
 }

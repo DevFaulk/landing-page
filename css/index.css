@@ -1,5 +1,5 @@
 html {
-  background-color: white;
+  background-color: #f9faf8;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Roboto", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
@@ -15,7 +15,7 @@ header {
   flex-direction: row;
   padding: 1rem;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   height: 10vh;
   padding: 0;
 }
@@ -26,6 +26,8 @@ footer {
   padding: 1rem;
   align-items: center;
   height: 10vh;
+  color: #f9faf8;
+  justify-content: center;
 }
 
 /* Color Declaration Block */
@@ -74,6 +76,7 @@ button {
   display: flex;
   padding-top: 2rem;
   padding: 3rem;
+  padding-inline: 8rem;
   padding-bottom: 6rem;
   align-items: center;
   justify-content: space-between;
@@ -82,7 +85,7 @@ button {
 
 .left-hero-block,
 .right-hero-block {
-  margin-inline: 3rem;
+  margin-inline: 1rem;
 }
 
 .hero-header {

@@ -138,10 +138,10 @@ button {
 /* Quote Block */
 
 .quote-block {
-  padding: 4rem;
+  padding: 5rem;
   height: 20%;
   background-color: #e5e7eb;
-  padding-inline: 18rem;
+  padding-inline: 16rem;
 }
 
 .quote-text {
